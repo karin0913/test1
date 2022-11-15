@@ -17,20 +17,20 @@
     <meta name="author" content="htmlstream.com">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static '/assets/favicon.ico' %}" type="image/x-icon">
 
     <!-- Web Fonts -->
     <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700" rel="stylesheet">
 
     <!-- Bootstrap Styles -->
-    <link rel="stylesheet" type="text/css" href="../../static/assets/vendors/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/assets/vendors/bootstrap/css/bootstrap.css' %}">
 
     <!-- Components Vendor Styles -->
-    <link rel="stylesheet" type="text/css" href="../../static/assets/vendors/font-awesome/css/fontawesome-all.min.css">
-    <link rel="stylesheet" type="text/css" href="../../static/assets/vendors/slick-carousel/slick.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/assets/vendors/font-awesome/css/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/assets/vendors/slick-carousel/slick.css' %}">
 
     <!-- Theme Styles -->
-    <link rel="stylesheet" type="text/css" href="../../static/assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/assets/css/styles.css' %}">
   </head>
   <!-- End Head -->
 
@@ -41,7 +41,7 @@
       <nav class="js-navbar-scroll navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="../../static/assets/img/logo-white.png" alt="Stream UI Kit" style="width: 100px;">
+            <img src="{% static '/assets/img/logo-white.png' %}" alt="Stream UI Kit" style="width: 100px;">
           </a>
 
           <button class="navbar-toggler" type="button"
@@ -234,7 +234,7 @@
             <div class="col-lg-3 col-sm-6 mb-5">
               <!-- Team Block -->
               <figure>
-                <img class="w-100 rounded-top" src="../../static/assets/img-temp/400x550/img1.jpg" alt="Image Description">
+                <img class="w-100 rounded-top" src="{% static '/assets/img-temp/400x550/img1.jpg' %}" alt="Image Description">
 
                 <!-- Figure Info -->
                 <div class="u-box-shadow-sm bg-white text-center rounded p-4">
@@ -251,7 +251,7 @@
             <div class="col-lg-3 col-sm-6 mb-5">
               <!-- Team Block -->
               <figure>
-                <img class="w-100 rounded-top" src="../../static/assets/img-temp/400x550/img2.jpg" alt="Image Description">
+                <img class="w-100 rounded-top" src="{% static '/assets/img-temp/400x550/img2.jpg' %}" alt="Image Description">
 
                 <!-- Figure Info -->
                 <div class="u-box-shadow-sm bg-white text-center rounded p-4">
@@ -268,7 +268,7 @@
             <div class="col-lg-3 col-sm-6 mb-5">
               <!-- Team Block -->
               <figure>
-                <img class="w-100 rounded-top" src="../../static/assets/img-temp/400x550/img3.jpg" alt="Image Description">
+                <img class="w-100 rounded-top" src="{% static '/assets/img-temp/400x550/img3.jpg' %}" alt="Image Description">
 
                 <!-- Figure Info -->
                 <div class="u-box-shadow-sm bg-white text-center rounded p-4">
@@ -285,7 +285,7 @@
             <div class="col-lg-3 col-sm-6 mb-5">
               <!-- Team Block -->
               <figure>
-                <img class="w-100 rounded-top" src="../../static/assets/img-temp/400x550/img4.jpg" alt="Image Description">
+                <img class="w-100 rounded-top" src="{% static '/assets/img-temp/400x550/img4.jpg' %}" alt="Image Description">
 
                 <!-- Figure Info -->
                 <div class="u-box-shadow-sm bg-white text-center rounded p-4">
@@ -313,28 +313,28 @@
 
           <div class="js-clients u-clients mb-4">
             <div>
-              <img class="u-clients__image" src="../../static/assets/img-temp/partners/img1.png" alt="Image Description">
+              <img class="u-clients__image" src="{% static '/assets/img-temp/partners/img1.png' %}" alt="Image Description">
             </div>
             <div>
-              <img class="u-clients__image" src="../../static/assets/img-temp/partners/img2.png" alt="Image Description">
+              <img class="u-clients__image" src="{% static '/assets/img-temp/partners/img2.png' %}" alt="Image Description">
             </div>
             <div>
-              <img class="u-clients__image" src="../../static/assets/img-temp/partners/img3.png" alt="Image Description">
+              <img class="u-clients__image" src="{% static '/assets/img-temp/partners/img3.png' %}" alt="Image Description">
             </div>
             <div>
-              <img class="u-clients__image" src="../../static/assets/img-temp/partners/img4.png" alt="Image Description">
+              <img class="u-clients__image" src="{% static '/assets/img-temp/partners/img4.png' %}" alt="Image Description">
             </div>
             <div>
-              <img class="u-clients__image" src="../../static/assets/img-temp/partners/img5.png" alt="Image Description">
+              <img class="u-clients__image" src="{% static '/assets/img-temp/partners/img5.png' %}" alt="Image Description">
             </div>
             <div>
-              <img class="u-clients__image" src="../../static/assets/img-temp/partners/img6.png" alt="Image Description">
+              <img class="u-clients__image" src="{% static '/assets/img-temp/partners/img6.png' %}" alt="Image Description">
             </div>
             <div>
-              <img class="u-clients__image" src="../../static/assets/img-temp/partners/img7.png" alt="Image Description">
+              <img class="u-clients__image" src="{% static '/assets/img-temp/partners/img7.png' %}" alt="Image Description">
             </div>
             <div>
-              <img class="u-clients__image" src="../../static/assets/img-temp/partners/img8.png" alt="Image Description">
+              <img class="u-clients__image" src="{% static '/assets/img-temp/partners/img8.png' %}" alt="Image Description">
             </div>
           </div>
         </div>
@@ -409,21 +409,21 @@
 
     <!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
     <!-- Global Vendor -->
-    <script src="../../static/assets/vendors/jquery.min.js"></script>
-    <script src="../../static/assets/vendors/jquery.migrate.min.js"></script>
-    <script src="../../static/assets/vendors/popper.min.js"></script>
-    <script src="../../static/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{% static '/assets/vendors/jquery.min.js' %}"></script>
+    <script src="{% static '/assets/vendors/jquery.migrate.min.js' %}"></script>
+    <script src="{% static '/assets/vendors/popper.min.js' %}"></script>
+    <script src="{% static '/assets/vendors/bootstrap/js/bootstrap.min.js' %}"></script>
 
     <!-- Components Vendor  -->
-    <script src="../../static/assets/vendors/jquery.parallax.js"></script>
-    <script src="../../static/assets/vendors/slick-carousel/slick.min.js"></script>
+    <script src="{% static '/assets/vendors/jquery.parallax.js' %}"></script>
+    <script src="{% static '/assets/vendors/slick-carousel/slick.min.js' %}"></script>
 
     <!-- Theme Settings and Calls -->
-    <script src="../../static/assets/js/global.js"></script>
+    <script src="{% static '/assets/js/global.js' %}"></script>
 
     <!-- Theme Components and Settings -->
-    <script src="../../static/assets/js/vendors/parallax.js"></script>
-    <script src="../../static/assets/js/vendors/carousel.js"></script>
+    <script src="{% static '/assets/js/vendors/parallax.js' %}"></script>
+    <script src="{% static '/assets/js/vendors/carousel.js' %}"></script>
     <!-- END JAVASCRIPTS -->
   </body>
   {% endblock %}

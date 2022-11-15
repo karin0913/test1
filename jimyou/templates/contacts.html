@@ -17,7 +17,7 @@
     <meta name="author" content="htmlstream.com">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static '/assets/favicon.ico' %}" type="image/x-icon">
 
     <!-- Web Fonts -->
     <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700" rel="stylesheet">
@@ -26,13 +26,13 @@
     <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700" rel="stylesheet">
 
     <!-- Bootstrap Styles -->
-    <link rel="stylesheet" type="text/css" href="../../static/assets/vendors/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/assets/vendors/bootstrap/css/bootstrap.css' %}">
 
     <!-- Components Vendor Styles -->
-    <link rel="stylesheet" type="text/css" href="../../static/assets/vendors/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/assets/vendors/font-awesome/css/fontawesome-all.min.css' %}">
 
     <!-- Theme Styles -->
-    <link rel="stylesheet" type="text/css" href="../../static/assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="{% static '/assets/css/styles.css' %}">
   </head>
   <!-- End Head -->
 
@@ -43,7 +43,7 @@
       <nav class="js-navbar-scroll navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="../../static/assets/img/logo-white.png" alt="Stream UI Kit" style="width: 100px;">
+            <img src="{% static '/assets/img/logo-white.png' %}" alt="Stream UI Kit" style="width: 100px;">
           </a>
 
           <button class="navbar-toggler" type="button"
@@ -264,19 +264,19 @@
 
     <!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
     <!-- Global Vendor -->
-    <script src="../../static/assets/vendors/jquery.min.js"></script>
-    <script src="../../static/assets/vendors/jquery.migrate.min.js"></script>
-    <script src="../../static/assets/vendors/popper.min.js"></script>
-    <script src="../../static/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="{% static '/assets/vendors/jquery.min.js' %}"></script>
+    <script src="{% static '/assets/vendors/jquery.migrate.min.js' %}"></script>
+    <script src="{% static '/assets/vendors/popper.min.js' %}"></script>
+    <script src="{% static '/assets/vendors/bootstrap/js/bootstrap.min.js' %}"></script>
 
     <!-- Components Vendor  -->
-    <script src="../../static/assets/vendors/jquery.parallax.js"></script>
+    <script src="{% static '/assets/vendors/jquery.parallax.js' %}"></script>
 
     <!-- Theme Settings and Calls -->
-    <script src="../../static/assets/js/global.js"></script>
+    <script src="{% static '/assets/js/global.js' %}"></script>
 
     <!-- Theme Components and Settings -->
-    <script src="../../static/assets/js/vendors/parallax.js"></script>
+    <script src="{% static '/assets/js/vendors/parallax.js' %}"></script>
     <!-- END JAVASCRIPTS -->
   </body>
   {% endblock %}
